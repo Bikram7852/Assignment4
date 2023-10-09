@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4", "Assignment4\Assignment4.csproj", "{A256CABA-9626-4D2E-83F6-ED9EC2CC39DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BB670E7-A0D6-430F-A5CB-ED1B538CA668} = {8BB670E7-A0D6-430F-A5CB-ED1B538CA668}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBusinessLogicLayer", "EmployeeBusinessLogicLayer\EmployeeBusinessLogicLayer.csproj", "{8BB670E7-A0D6-430F-A5CB-ED1B538CA668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A256CABA-9626-4D2E-83F6-ED9EC2CC39DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A256CABA-9626-4D2E-83F6-ED9EC2CC39DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A256CABA-9626-4D2E-83F6-ED9EC2CC39DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A256CABA-9626-4D2E-83F6-ED9EC2CC39DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB670E7-A0D6-430F-A5CB-ED1B538CA668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB670E7-A0D6-430F-A5CB-ED1B538CA668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB670E7-A0D6-430F-A5CB-ED1B538CA668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB670E7-A0D6-430F-A5CB-ED1B538CA668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C6BF4AA-DF1C-49A3-970E-DB46BA722715}
+	EndGlobalSection
+EndGlobal
